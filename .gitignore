@@ -1,32 +1,38 @@
-# Node modules
-node_modules/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Build output
-.next/
-out/
+# testing
+/coverage
 
-# Log files
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment variables
+# local env files
+.env*.local
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-# IDE and editor files
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Other files
-package-lock.json
-yarn.lock
