@@ -9,12 +9,18 @@ export default function Home() {
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/academics">Academics</Link>
+        <Link href="/admissions">Admissions</Link>
+        <Link href="/faculty">Faculty</Link>
+        <Link href="/portal">portal</Link>
+        <Link href="/gallery">Gallery</Link>
+        <Link href="/news">News</Link>
         <Link href="/contact">Contact</Link>
+        
       </nav>
 
       <div className={styles.heroSection}>
         <div>
-          <h1 className={styles.title}>Welcome to School GVM</h1>
+          <h1 className={styles.title}>Welcome to G Venkatappa Memorial High School</h1>
           <p className={styles.description}>Empowering minds, Building futures</p>
         </div>
       </div>
@@ -77,14 +83,14 @@ export default function Home() {
             <ul>
               <li>100% Pass Rate in Board Exams</li>
               <li>State Level Sports Champions</li>
-              <li>Best School Award 2023</li>
+              <li>Helped to achieve the students dreams year by year</li>
             </ul>
           </div>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <p> 2024 School GVM. All rights reserved.</p>
+        <p> 2024 G Venkatappa Memorial High School. All rights reserved.</p>
       </footer>
     </div>
   )

@@ -31,6 +31,11 @@ export default function Contact() {
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/academics">Academics</Link>
+        <Link href="/admissions">Admissions</Link>
+        <Link href="/faculty">Faculty</Link>
+        <Link href="/portal">portal</Link>
+        <Link href="/gallery">Gallery</Link>
+        <Link href="/news">News</Link>
         <Link href="/contact">Contact</Link>
       </nav>
       
@@ -45,7 +50,7 @@ export default function Contact() {
           </div>
           <div className={styles.card}>
             <h2>Phone</h2>
-            <p>Main Office: 090008 91439</p>
+            <p>Main Office: +91 9000891439</p>
           </div>
           <div className={styles.card}>
             <h2>Email</h2>
