@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link'
 
 const Portal = () => {
     const router = useRouter();
@@ -50,6 +51,17 @@ const Portal = () => {
 
     return (
         <div className={styles.container}>
+            <nav className={styles.nav}>
+                <Link href="/">Home</Link>
+                <Link href="/about">About</Link>
+                <Link href="/academics">Academics</Link>
+                <Link href="/admissions">Admissions</Link>
+                <Link href="/faculty">Faculty</Link>
+                <Link href="/portal">portal</Link>
+                <Link href="/gallery">Gallery</Link>
+                <Link href="/news">News</Link>
+                <Link href="/contact">Contact</Link>
+            </nav>
             <header className={styles.header}>
                 {session && (
                     <button 

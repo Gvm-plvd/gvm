@@ -5,14 +5,14 @@ export default function News() {
   const newsItems = [
     {
       id: 1,
-      title: "Annual Day Celebrations",
-      date: "December 15, 2024",
-      description: "Join us for our annual day celebrations featuring cultural performances.",
+      title: "Alumni Celebrations",
+      date: "December 26, 2024",
+      description: "Join us for our alumni celebrations featuring cultural performances.",
     },
     {
       id: 2,
       title: "Parent-Teacher Meeting",
-      date: "December 20, 2024",
+      date: "December 27, 2024",
       description: "Schedule for Term 1 parent-teacher meeting has been announced.",
     },
     // Add more news items

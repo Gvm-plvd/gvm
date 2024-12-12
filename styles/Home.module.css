@@ -3,12 +3,12 @@
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  background-color: #f9fafb;
+  background-color: #f5f5f5; 
 }
 
 .nav {
   padding: 1.5rem;
-  background: white;
+  background-color: #3af349; 
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -634,11 +634,11 @@
 .footer {
   width: 100%;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #0d1216;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: rgb(41, 111, 240);
 }
 
 .contactForm {
@@ -723,7 +723,7 @@
   position: relative;
   width: 100%;
   height: 60vh;
-  background: linear-gradient(135deg, #00b09b 0%, #96c93d 100%);
+  background: linear-gradient(135deg, #86ebdf 0%, #e2e470 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -844,3 +844,60 @@
     transform: translateY(-2px);
 }
 
+/* Gallery section styles */
+.gallerysection {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallerygrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  /* 4 columns */
+  gap: 20px;  /* Space between images */
+  margin-top: 20px;
+}
+
+.galleryitem {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;  /* Optional: Rounded corners for images */
+}
+
+.galleryitem img {
+  object-fit: cover;  /* Ensure the image covers the container without distortion */
+  width: 100%;  /* Take full width of the container */
+  height: 100%;  /* Take full height of the container */
+  border-radius: 10px; /* Optional: Rounded corners for images */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Optional: Shadow around images */
+}
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);  /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;  /* Ensure modal is on top of other elements */
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.modalContent img {
+  max-width: 100%;
+  max-height: 80vh;  /* Limit the height of the large image */
+  object-fit: contain;  /* Preserve aspect ratio */
+}
+
+.modal:hover {
+  cursor: pointer;
+}

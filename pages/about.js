@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className={styles.container}>
       <nav className={styles.nav}>
-      <Link href="/">Home</Link>
+        <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/academics">Academics</Link>
         <Link href="/admissions">Admissions</Link>
